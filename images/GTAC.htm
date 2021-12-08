@@ -1,0 +1,165 @@
+<html><head>
+		<meta name="description" content="Dise�o y objetivos de construccion">
+		<meta name="keywords" content="DOC, dise�o, construccion">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>GTAC</title>
+	</head>
+	<body onload="javascript:posicionarPie();">
+				<style type="text/css">
+			body {	margin: 0;	padding: 0; padding-top: 1em;	font-family:Arial, Helvetica, sans-serif;	font-size:10px; }
+			body {background: url("img/fondo.png") repeat-x scroll 50% 0px #FFFFFF;}
+			body,img,a {border-style:none;	}
+			div#CentradaLS { position:absolute; top:-60; left:50%; width:928px; margin-left:-464px;}
+			#divLogo {	position:absolute;	left:0px;	top:60px;	width:900px; height:180px;}
+			#divLogoUpv {	position:absolute;	left:726px;	top:48px;	width:170px; height:80px; z-index:5;}
+			#divLogoIteam {	position:absolute;	left:741px;	top:100px;	width:170px; height:70px; z-index:5;}
+			#idiomas { position:absolute;	height:40px; z-index:5; left:787px; top:200px; width:120px; font-size:13px; color:#FFF;}
+			#idiomas a {color:#FFF; font-size:11px;}
+			#divMenu {	position:relative;left:15px;	top:163px;	width:903px;	height:42px;	z-index:1;	color:#FFF;}
+			#divMenu a { font-family:Arial, Helvetica, sans-serif;	font-size:12px;	color:#FFF;	text-decoration:none;}
+			#divMenu a{	font-size:18px;}
+			#divMenu a:hover{ color:#F2ECCA;}
+			#divMenu td{ padding-top:5px; height:42px;}
+			div#cuerpo { position:relative;	left:0px;	top:155px;	width:928px; height:800px; background:url(img/fondoCentro.png) no-repeat;}
+
+			div#botones{ position:relative;	left:690px;	top:25px;	width:200px; height:800px; float:left; display:block; text-align:justify; }
+			div#botones a{ font-family:Arial, Helvetica, sans-serif;	font-size:12px;	color:#595959;	text-decoration:none;}
+			div#botones img{ margin-bottom:2px;}
+			#botonesmenu { margin-top:10px; margin-left:25px;}
+			#botonesmenu div{ height: 18px; margin-top:1px; margin-bottom:0px; background:url(img/fondoBotonSubmenu.png) no-repeat;}
+			#botonesmenu div a{ margin-left:15px; font-family:Verdana, Geneva, sans-serif; font-weight:bold; line-height: 17px; margin-bottom: 1px; text-decoration: none; text-indent: 15px; width: 95%; font-size:10px; color:#FFF;}
+			#botonesmenu div a:hover{ color:#3B8AAF;}
+			#botonesmenu div a.botonPres{color:#3B8AAF;}
+			#botonesmenu div a.botonNoPres{color:#FFF;}
+			#botonesmenu div a.botonNoPres:hover{color:#3B8AAF;}
+
+			div#centro{	position:relative;	margin-left:25px;	top:20px;	width:610px; z-index:1; background-color:#FFF; }
+			div#centro2{ position:absolute;	left:15px;	top:15px;	width:630px; z-index:1; text-align:justify; color: #595959; font-family: Verdana,Helvetica,sans-serif; font-size: 12px;}
+			div#centro2 a {color:#008080; font-weight:bold; }
+			div#pie{ position:relative;	width:900px; left:14px; height:23px;	z-index:1;	background-color:#91B3D5; clear:left;	}
+			div#pie td {padding-left:0px;	padding-right:0px;	padding-top:0px; height:22px;text-align:center;}
+			div#pie td a { font-size:12px; color:#FFF; }
+			div#pie a { font-family:Arial, Helvetica, sans-serif;	font-size:12px;	color:#FFF;	text-decoration:none;}
+			div#pie a:hover{ color:#F2ECCA;}
+			button { border-style: solid; border-top-width: 2px; border-right-width: 1px; border-left-width: 1px; border-bottom-width: 0; border-color: #3a7999; background: #3b8aaf; color: #fff; font-size: 14px; font-weight: bold; border-radius: 5px 5px 0 0; position: relative; width: 99%; box-sizing: border-box; transition: all 500ms ease; }
+			button.pres{ background: #3a7999; color: #fff; font-size: 14px; font-weight: bold; border-radius: 5px 5px 0 0; position: relative; width: 99%; box-sizing: border-box; transition: all 500ms ease; }
+			button:before { content:''; position: absolute; top: 0px; left: 0px; width: 100%; height: 0px; background: rgba(255,255,255,0.3); border-radius: 5px; transition: all 500ms ease; }
+			button:hover:before { height: 100%; }
+		</style>
+		<!--[if IE]>
+		<style type="text/css">
+			div#centro{ left:0px; width:580px; }
+			div#botonesmenu div a{ margin-left:-15px;}
+		</style>
+		<![endif]-->
+		<script language="javascript">
+			function cambiarImg(boton, img){
+				document.getElementById(boton).src = "img/"+img+".png";
+			}
+		</script>
+		<div id="CentradaLS">
+			<div id="divLogo">
+				<img src="GTAC_files/ncabecera2En.png" style="margin-top: 0px;">
+			</div>
+			<div id="divLogoUpv"><a href="http://www.upv.es/"><img alt="upv" title="upv" id="upv" src="GTAC_files/cabecera-logo-upv2.png" onmouseover="javascript:cambiarImg('upv', 'cabecera-logo-upv-over2')" onmouseout="javascript:cambiarImg('upv', 'cabecera-logo-upv2')"></a></div>
+			<div id="divLogoIteam"><a href="http://www.iteam.upv.es/"><img alt="iteam" title="iteam" id="iteam" src="GTAC_files/cabecera-logo-iteam2.png" onmouseover="javascript:cambiarImg('iteam', 'cabecera-logo-iteam-over2')" onmouseout="javascript:cambiarImg('iteam', 'cabecera-logo-iteam2')"></a></div>
+			<div id="idiomas">
+				<a href="https://gtac.webs.upv.es/index.php?idioma=Es">Castellano</a> | <b>English</b>			</div>
+			<div id="divMenu">
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+					<tbody><tr>
+						<td><button class="pres" onclick="window.location.href='/index.php'">Home</button></td>
+						<td><button onclick="window.location.href='/miembros.php'">People</button></td>
+						<td><button onclick="window.location.href='/lineas.php'">Areas</button></td>
+						<td><button onclick="window.location.href='/proyectos.php'">Research Projects</button></td>
+						<td><button onclick="window.location.href='/publicaciones.php'">Publications</button></td>
+						<td><button onclick="window.location.href='/software.php'">Software</button></td>
+						<td><button onclick="window.location.href='/enlaces.php'">Links</button></td>
+						<td><button onclick="window.location.href='/contacto.php'">Contact</button></td>
+					</tr>
+				</tbody></table>
+			</div>
+			<div id="cuerpo" style="height: 648px;">
+				<div id="centro">
+					<div id="centro2">
+						<img src="GTAC_files/tit_presentaEn.png">
+							<p>The Audio and Communications Signal Processing Group (GTAC) 
+belongs to the Institute of Telecommunications and Multimedia 
+Applications (<a href="http://www.iteam.upv.es/" target="_blank">iTEAM</a>) of the Universitat Politécnica de Valencia (<a href="http://www.upv.es/" target="_blank">UPV</a>). The iTEAM is a research centre integrated in the <a href="http://cpi.upv.es/" target="_blank">Polythecnic City of Innovation</a>, one of the two big scientific parks located at Valencia city. </p><p>GTAC
+ focuses its research in signal processing algorithms used in sound and 
+wireless communication applications. Since 1998, GTAC members have 
+managed / participated in different <a href="https://gtac.webs.upv.es/proyectos.php">research projects</a>
+ related to Active Noise Control systems, Sound quality perception, 
+Spatial Audio rendering and Multi-channel audio filtering in the area of
+ sound processing, and related to Efficient MIMO receivers, Multi-user 
+communications and coordinated systems in the area of wireless 
+communications. Achieved advances in these fields are available through 
+the publications listed in the <a href="https://gtac.webs.upv.es/publicaciones.php">publications</a> menu.</p><p>Currently,
+ GTAC is leading the use of General Purpose Graphics Processing Units 
+(GP-GPUs) to real-time multichannel processing where efficient and 
+computationally inexpensive signal processing algorithms are needed. For
+ this purpose GTAC is collaborating with the <a href="http://www.inco2.upv.es/index.php" target="_blank">Interdisciplinary Computation and Communication Group</a> of the Universitat Politécnica de Valencia in several projects.</p><p>The GTAC laboratory comprises several facilities as a <a href="https://gtac.webs.upv.es/img/arrayaereo.jpg" rel="lightbox[foto_sala]" title="Listening room">large listening room</a>
+ (40 m2), totally equipped with audiovisual and control instrumentation.
+ 34.560 impulse responses measured in this listening room can be 
+downloaded <a href="https://gtac.webs.upv.es/room.php" target="_blank">here</a>, where the configuration of the loudspeaker and microphones is depicted.</p><br>						<style>
+							#botonesAbajo a { margin-right:20px;}
+						</style>
+						<div id="botonesAbajo">
+							<a href="https://gtac.webs.upv.es/img/arraysala.jpg" rel="lightbox[parque]" title="Array room"><img src="GTAC_files/arraysala.jpg" width="92"></a>
+							<a href="https://gtac.webs.upv.es/img/mascleta.jpg" rel="lightbox[parque]" title="" mascleta""=""><img src="GTAC_files/mascleta.jpg" width="92"></a>
+							<a href="https://gtac.webs.upv.es/img/maniqui_array.jpg" rel="lightbox[parque]" title="Mannequin array"><img src="GTAC_files/maniqui_array.jpg" width="92"></a>
+							<a href="https://gtac.webs.upv.es/img/pantalla3D.jpg" rel="lightbox[parque]" title="3D screen"><img src="GTAC_files/pantalla3D.jpg" width="92"></a>
+							<a href="https://gtac.webs.upv.es/img/MIMO.jpg" rel="lightbox[parque]" title="MIMO"><img src="GTAC_files/MIMO.jpg" width="92"></a>
+						</div>
+					</div>
+				</div>
+				<script type="text/javascript" src="GTAC_files/prototype.js"></script>
+				<script type="text/javascript" src="GTAC_files/scriptaculous.js"></script><script type="text/javascript" src="GTAC_files/effects.js"></script>
+				<script type="text/javascript" src="GTAC_files/lightboxSEB.js"></script>
+				<link rel="stylesheet" href="GTAC_files/lightbox.css" type="text/css" media="screen">
+        <div id="botones">
+        	<h2><img src="GTAC_files/tit_noticiasEn.png"></h2>
+            <p><a href="https://gtac.webs.upv.es/noticias.php?idnoticia=4"><b>Open Positions</b><br>We are constantly looking for good Grade, M.Sc. and Ph.D. students to join our group.</a></p><p><a href="https://gtac.webs.upv.es/noticias.php?idnoticia=8"><b>Audio application for the Museum Vicente Miralles: How would it sound?</b><br>Dr. Gema Piñero leads the technological demonstrator " How would it sound?" of the Telefonica Chair of the UPV.</a></p>            <p><a href="https://gtac.webs.upv.es/noticias.php" style="color: #008080; font-family: Verdana,Helvetica,sans-serif; font-size: 12px; text-decoration:underline; font-weight:bold;">more news</a></p>
+        </div>    
+    </div>
+    <div id="pie">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+          <tbody><tr>
+            <td style="width:205px; text-align:left;"><a href="http://www.upv.es/" target="_blank" style="margin-left:15px;">© UPV</a></td>
+        	<td><a href="http://maps.google.es/maps?q=ITEAM.+Edificio+8G,+upv,+valencia&amp;hl=es&amp;sll=40.396764,-3.713379&amp;sspn=15.215122,15.249023&amp;hq=ITEAM.+Edificio+8G,+upv,&amp;hnear=Valencia,+Comunidad+Valenciana&amp;t=m&amp;z=13" target="_blank">Camino Vera, S/N, 46020 Valencia</a></td>
+            <td style="width:155px;"></td>               
+          </tr>
+        </tbody></table>
+    </div>
+</div>
+
+
+<script language="javascript">
+	var divMenu = document.getElementById("divMenu");
+	var cuerpo = document.getElementById("cuerpo");
+	var botones = document.getElementById("botones");
+	var centro = document.getElementById("centro");
+	var centro2 = document.getElementById("centro2");
+	var alturaMinima = 400;
+	posicionarPie(); 
+	function posicionarPie(){ 
+		var alturacuerpo = centro2.offsetHeight+cuerpo.offsetTop+centro.offsetTop;
+		if (alturacuerpo<alturaMinima) alturacuerpo=alturaMinima;
+		cuerpo.style.height = alturacuerpo+"px";
+		var alturabotones = botones.getElementsByTagName("div").length*20+cuerpo.offsetTop+botones.offetTop;
+		if (alturabotones<alturaMinima) alturabotones=alturaMinima;
+		botones.style.height = alturabotones;
+	}
+	txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
+	txt+= "<p>Browser Name: " + navigator.appName + "</p>";
+	txt+= "<p>Browser Version: " + navigator.appVersion + "</p>";
+	txt+= "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
+	txt+= "<p>Platform: " + navigator.platform + "</p>";
+	txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
+	if (navigator.appName=="Opera"){
+		centro.style.left = "0px"; 
+		centro.style.width = "570px";
+	}else if (navigator.appVersion.indexOf("Chrome")>0){
+		divMenu.style.height = "42px";
+	}
+</script><div id="overlay" style="height: 963px; opacity: 0.8;"></div><div id="lightbox" style="top: 221.433px;"><div id="outerImageContainer" style="font-size: 114.257px; height: 554px; width: 1289px;"><div id="imageContainer"><img id="lightboxImage" style="width: 1269px; height: 534px; opacity: 0.999999;" src="GTAC_files/mascleta.jpg"><div id="hoverNav" style=""><a id="prevLink" href="#" style="height: 534px;"></a><a id="nextLink" href="#" style="height: 534px;"></a></div><div id="loading" style="display: none;"><a id="loadingLink" href="#"><img src="GTAC_files/loading.gif"></a></div></div></div><div id="imageDataContainer" class="clearfix" style="width: 1289px; opacity: 0.999999;"><div id="imageData" style=""><div id="imageDetails"><span id="caption"></span><span id="numberDisplay" style="">2 / 5</span></div><div id="bottomNav"><a id="bottomNavClose" href="#"><img src="GTAC_files/closelabel.gif"></a></div></div></div></div></body></html>
