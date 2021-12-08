@@ -1,0 +1,40 @@
+h2.acronimo {
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+h2.acronimo span.sigla {
+     font-weight: bold;
+     color: rgba(230, 163, 39, 0.877);
+}
+
+h2.acronimo span.explicacion {
+    font-size: smaller;
+}
+
+
+ul.objectives {
+    counter-reset: contador_li 0;
+    list-style: none;
+}
+
+ul.objectives > li > ul {
+    counter-reset: contador_li_li 0;
+    list-style: none;
+}
+
+ul.objectives > li::before{
+    counter-increment: contador_li;
+    content: counter(contador_li) ". ";
+}
+
+
+ul.objectives > li > ul > li::before{
+    counter-increment: contador_li_li;
+    content: counter(contador_li) "." counter(contador_li_li) ". "
+}
+
+
+#header > nav > ul > li > a {
+    padding: 0;
+}
