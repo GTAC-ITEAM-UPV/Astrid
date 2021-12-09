@@ -1,4 +1,4 @@
-# ASTRID <img src="https://gtac-iteam-upv.github.io/Astrid/images/astrid2.png" width=25>
+# ASTRID <img src="https://gtac-iteam-upv.github.io/Astrid/images/astrid2.png" width="20" alt="ASTRID logo">
 
 ## Public repository of [ASTRID](https://gtac-iteam-upv.github.io/Astrid/) Project
 
