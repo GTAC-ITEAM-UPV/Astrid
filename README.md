@@ -3,7 +3,7 @@
 ## Public repository of [ASTRID](https://gtac-iteam-upv.github.io/Astrid/) Project
 
 
-### Status project
+### Project status
 
 [![GitHub issues](https://img.shields.io/github/issues/GTAC-ITEAM-UPV/Astrid?style=flat-square)](https://github.com/GTAC-ITEAM-UPV/Astrid/issues) 
 <!--
