@@ -6,6 +6,10 @@
 ### Project status
 
 [![GitHub issues](https://img.shields.io/github/issues/GTAC-ITEAM-UPV/Astrid?style=flat-square)](https://github.com/GTAC-ITEAM-UPV/Astrid/issues) 
+[![GitHub forks](https://img.shields.io/github/forks/GTAC-ITEAM-UPV/Astrid?style=flat-square)](https://github.com/GTAC-ITEAM-UPV/Astrid/network) 
+[![GitHub stars](https://img.shields.io/github/stars/GTAC-ITEAM-UPV/Astrid?style=flat-square)](https://github.com/GTAC-ITEAM-UPV/Astrid/stargazers)
+[![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)]()
+
 <!--
 [![GitHub forks](https://img.shields.io/github/forks/File-New-Project/EarTrumpet?style=flat-square)](https://github.com/File-New-Project/EarTrumpet/network) 
 [![GitHub stars](https://img.shields.io/github/stars/File-New-Project/EarTrumpet?style=flat-square)](https://github.com/File-New-Project/EarTrumpet/stargazers) 
