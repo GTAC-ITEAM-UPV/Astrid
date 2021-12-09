@@ -3,6 +3,18 @@
 ## Public repository of [ASTRID](https://gtac-iteam-upv.github.io/Astrid/) Project
 
 
+### Status project
+
+[![GitHub issues](https://img.shields.io/github/issues/GTAC-ITEAM-UPV/Astrid?style=flat-square)](https://github.com/GTAC-ITEAM-UPV/Astrid/issues) 
+<!--
+[![GitHub forks](https://img.shields.io/github/forks/File-New-Project/EarTrumpet?style=flat-square)](https://github.com/File-New-Project/EarTrumpet/network) 
+[![GitHub stars](https://img.shields.io/github/stars/File-New-Project/EarTrumpet?style=flat-square)](https://github.com/File-New-Project/EarTrumpet/stargazers) 
+[![GitHub license](https://img.shields.io/github/license/File-New-Project/EarTrumpet?style=flat-square)](https://github.com/File-New-Project/EarTrumpet/blob/master/LICENSE) 
+[![Nuget package](https://img.shields.io/chocolatey/v/eartrumpet?style=flat-square)](https://chocolatey.org/packages/eartrumpet) 
+[![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
+-->
+
+### Project description
 
 
 The general objective of [ASTRID](https://gtac-iteam-upv.github.io/Astrid/) project is to contribute to
