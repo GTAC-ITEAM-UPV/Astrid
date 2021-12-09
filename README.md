@@ -1,4 +1,4 @@
-# ASTRID <img src="https://gtac-iteam-upv.github.io/Astrid/images/astrid2.png" width=20>
+# ASTRID <img src="https://gtac-iteam-upv.github.io/Astrid/images/astrid2.png" width=25>
 
 ## Public repository of [ASTRID](https://gtac-iteam-upv.github.io/Astrid/) Project
 
@@ -10,13 +10,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/GTAC-ITEAM-UPV/Astrid?style=flat-square)](https://github.com/GTAC-ITEAM-UPV/Astrid/stargazers)
 [![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)]()
 
-<!--
-[![GitHub forks](https://img.shields.io/github/forks/File-New-Project/EarTrumpet?style=flat-square)](https://github.com/File-New-Project/EarTrumpet/network) 
-[![GitHub stars](https://img.shields.io/github/stars/File-New-Project/EarTrumpet?style=flat-square)](https://github.com/File-New-Project/EarTrumpet/stargazers) 
-[![GitHub license](https://img.shields.io/github/license/File-New-Project/EarTrumpet?style=flat-square)](https://github.com/File-New-Project/EarTrumpet/blob/master/LICENSE) 
-[![Nuget package](https://img.shields.io/chocolatey/v/eartrumpet?style=flat-square)](https://chocolatey.org/packages/eartrumpet) 
-[![Maintenance status](https://img.shields.io/maintenance/yes/2021?style=flat-square)
--->
 
 ### Project description
 
