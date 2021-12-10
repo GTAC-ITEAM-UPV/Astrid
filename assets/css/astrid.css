@@ -38,3 +38,24 @@ ul.objectives > li > ul > li::before{
 #header > nav > ul > li > a {
     padding: 0;
 }
+
+
+ul.icons.contacto, p#contacto {
+  text-align: center;
+}
+
+ul.members li {
+  padding-left: 0;
+  list-style: none;
+}
+
+a.orcid, a.iteam, a.gtac, a.comm, a.upv {
+  margin-right: 5px;
+}
+
+
+a.iteam img, a.orcid img, a.gtac img, a.comm img, a.upv img {
+  position:relative; 
+  top:.15em; 
+  height: 1em;
+}
