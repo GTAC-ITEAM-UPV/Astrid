@@ -64,3 +64,12 @@ a.iteam img, a.orcid img, a.gtac img, a.comm img, a.upv img {
 div#wrapper > footer {
   margin-top: 1.5rem;
 }
+
+footer p a {
+  border-bottom: none;
+}
+
+footer p a img {
+  height:1em;
+  margin-right: 1em;
+}
