@@ -51,6 +51,7 @@ ul.members li {
 
 a.orcid, a.iteam, a.gtac, a.comm, a.upv {
   margin-right: 5px;
+  border-bottom: none;
 }
 
 
@@ -58,4 +59,8 @@ a.iteam img, a.orcid img, a.gtac img, a.comm img, a.upv img {
   position:relative; 
   top:.15em; 
   height: 1em;
+}
+
+div#wrapper > footer {
+  margin-top: 1.5rem;
 }
