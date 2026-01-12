@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1659,21 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+.imagen_sticky {
+  position: fixed;           /* Se mantiene fija en la pantalla */
+  bottom: 10px;              /* Pegada a la parte inferior */
+  left: 50%;                 /* Centrada horizontalmente */
+  transform: translateX(-50%);
+  display: flex;             /* Flexbox */
+  flex-direction: column;    /* Coloca elementos en columna */
+  align-items: center;       /* Centra horizontalmente */
+  text-align: center;        /* Centra el texto del <p> */
+              /* Ajusta ancho al texto */
+  z-index: 1000;             /* Encima del contenido */
+}
+
+
+
+    
