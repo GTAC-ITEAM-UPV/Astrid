@@ -13,16 +13,30 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="stylesheet" href="assets/css/astrid.css">
 		<link rel="icon" href="images/astrid2.png" type="img/png">
+    <style>
+      .imagen_sticky {
+  position: fixed;           /* Se mantiene fija en la pantalla */
+  bottom: 10px;              /* Pegada a la parte inferior */
+  left: 50%;                 /* Centrada horizontalmente */
+  transform: translateX(-50%);
+  display: flex;             /* Flexbox */
+  flex-direction: column;    /* Coloca elementos en columna */
+  align-items: center;       /* Centra horizontalmente */
+  text-align: center;        /* Centra el texto del <p> */
+              /* Ajusta ancho al texto */
+  z-index: 1000;             /* Encima del contenido */
+}
+    </style>
 	</head>
 	<body class="is-preload">
 
-      <div class="imagen_sticky" >
-  <img src="images/logos.jpg" alt="Logos" style="height: 60px;">
-  &nbsp;
-  <p style="font-size: smaller; line-height: normal;">
-  Esta página es parte del proyecto PID2021-125736OB-I00
-  </p>
-  </div>  
+    <div class="imagen_sticky">
+      <img src="images/logos.jpg" alt="Logos" style="height: 60px;">
+      &nbsp;
+      <p style="font-size: smaller; line-height: normal;">
+        Esta página es parte del proyecto PID2021-125736OB-I00
+      </p>
+    </div>
 
 
 		<!-- Wrapper -->
