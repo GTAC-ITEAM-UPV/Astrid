@@ -73,3 +73,17 @@ footer p a img {
   height:1em;
   margin-right: 1em;
 }
+
+
+.imagen_sticky {
+  position: fixed;           /* Se mantiene fija en la pantalla */
+  bottom: 10px;              /* Pegada a la parte inferior */
+  left: 50%;                 /* Centrada horizontalmente */
+  transform: translateX(-50%);
+  display: flex;             /* Flexbox */
+  flex-direction: column;    /* Coloca elementos en columna */
+  align-items: center;       /* Centra horizontalmente */
+  text-align: center;        /* Centra el texto del <p> */
+              /* Ajusta ancho al texto */
+  z-index: 1000;             /* Encima del contenido */
+}
